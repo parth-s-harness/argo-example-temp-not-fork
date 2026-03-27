@@ -11,6 +11,6 @@ spec:
       containers:
       - name: sleep
         image: alpine
-        command: ["/bin/sh", "-c", "sleep 300"] # Stalls the sync for 5 minutes
+        command: ["/bin/sh", "-c", "sleep 30"] # Stalls the sync for 30 seconds
       restartPolicy: Never
   backoffLimit: 0
